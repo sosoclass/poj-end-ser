@@ -2,9 +2,11 @@
  * Created by 93659 on 2018/12/3.
  */
 const express =  require('express');
-const app = express();
-const db = require('./db');
 const router = require('./router');
+const db = require('./db');
+const app = express();
+
+
 
 (async()=>{
   await db;
